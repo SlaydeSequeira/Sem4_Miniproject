@@ -43,9 +43,9 @@ public class Createacc extends AppCompatActivity {
 
         firebaseAuth = FirebaseAuth.getInstance();
 
-        EditText password1 =(EditText) findViewById(R.id.text3);
-        EditText email1 = (EditText) findViewById(R.id.text2);
-        EditText username1=(EditText) findViewById(R.id.text1);
+        EditText password1 =(EditText) findViewById(R.id.edittext3);
+        EditText email1 = (EditText) findViewById(R.id.edittext2);
+        EditText username1=(EditText) findViewById(R.id.edittext1);
         Button login=(Button)  findViewById(R.id.button);
 
         authStateListener = new FirebaseAuth.AuthStateListener() {

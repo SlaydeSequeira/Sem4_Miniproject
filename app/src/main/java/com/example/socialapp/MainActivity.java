@@ -45,6 +45,10 @@ public class MainActivity extends AppCompatActivity {
         Button create=(Button) findViewById(R.id.button);
 
         firebaseAuth= FirebaseAuth.getInstance();
+        currentUser = FirebaseAuth.getInstance().getCurrentUser();
+        if(currentUser != null){
+            openActivity1();
+        }
 
         create.setOnClickListener(new View.OnClickListener() {
             @Override

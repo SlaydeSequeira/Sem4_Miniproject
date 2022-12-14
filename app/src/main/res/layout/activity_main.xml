@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
-    android:background="@color/black">
+    android:background="@drawable/gradient">
 
     <TextView
         android:layout_width="wrap_content"
@@ -83,22 +83,24 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/loginbtn"
+        android:layout_marginLeft="15dp"
         android:text="New to Sociomart?"
-        android:textColor="#0027FF"
-        android:layout_marginLeft="15dp"/>
+        android:textColor="#0027FF" />
 
     <Button
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/edittext2"
-        android:layout_marginTop="36dp"
+        android:layout_marginLeft="-135dp"
+        android:layout_marginTop="60dp"
         android:layout_toRightOf="@id/text3"
-        android:backgroundTint="@color/black"
+        android:backgroundTint="@drawable/gradient"
         android:text="Create new account"
         android:textColor="#0027FF"
         android:textSize="10dp" />
-<TextView
+
+    <TextView
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:layout_below="@+id/text3"
@@ -142,6 +144,6 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="600dp"
         android:text="Developed by Slayde"
-        android:textColor="#F44336"
+        android:textColor="#0027FF"
         android:textSize="20dp" />
 </RelativeLayout>
